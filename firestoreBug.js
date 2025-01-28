@@ -1,0 +1,1 @@
+In a Firebase project, I encountered an issue where data wasn't being written to Firestore even though my code appeared correct. The `set()` method returned a successful promise, but the data wasn't reflected in the database.  The issue was intermittent, making it difficult to debug.
