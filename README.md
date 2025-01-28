@@ -1,0 +1,1 @@
+This repository demonstrates a bug encountered with Firebase Firestore where data write operations using the `set()` method would intermittently fail, despite the promise resolving successfully. The data would not be written to the Firestore database. The solution involves implementing more robust error handling and potential retry mechanisms.
